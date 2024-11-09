@@ -1,20 +1,19 @@
-*{
-    padding: 0px;
-    margin:0px;
-    color:white;
-}
-#Navbar{
-    height:60px;
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 90px;
+    height: 14px;
+    --c:#4A628A 92%,#0000;
+    background: 
+      radial-gradient(circle closest-side,var(--c)) calc(100%/-4) 0,
+      radial-gradient(circle closest-side,var(--c)) calc(100%/4)  0;
+    background-size:calc(100%/2) 100%;
+    animation: l14 1.5s infinite;
+  }
+  @keyframes l14 {
+      0%   {background-position: calc(100%/-4) 0 ,calc(100%/4) 0}
+      50%  {background-position: calc(100%/-4) -14px,calc(100%/4) 14px}
+      100% {background-position: calc(100%/4) -14px,calc(3*100%/4) 14px}
+  }
+  body{
     background-color: black;
-}
-button{
-    background-color: #f08804;
-}
-#logo{
-    color: #f08804;
-    font-size: 25px;
-}
-a{
-    margin-right: 200px;
-    text-decoration: none;
-}
+  }
