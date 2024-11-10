@@ -1,19 +1,111 @@
-/* HTML: <div class="loader"></div> */
-.loader {
-    width: 90px;
-    height: 14px;
-    --c:#4A628A 92%,#0000;
-    background: 
-      radial-gradient(circle closest-side,var(--c)) calc(100%/-4) 0,
-      radial-gradient(circle closest-side,var(--c)) calc(100%/4)  0;
-    background-size:calc(100%/2) 100%;
-    animation: l14 1.5s infinite;
-  }
-  @keyframes l14 {
-      0%   {background-position: calc(100%/-4) 0 ,calc(100%/4) 0}
-      50%  {background-position: calc(100%/-4) -14px,calc(100%/4) 14px}
-      100% {background-position: calc(100%/4) -14px,calc(3*100%/4) 14px}
-  }
-  body{
-    background-color: black;
-  }
+*{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navBar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navLogo{
+  height: 50px;
+  width: 113px;
+}
+
+.logo{
+  background-image: url("Amazon-Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y:center;
+  height: 50px;
+  width : 100%;
+}
+
+.broder{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+
+.deliver{
+  font-size: 12px;
+  line-height: 14px;
+  color: #cccccc;
+  margin-left: 37px;
+  /* margin-top: 9px; */
+}
+.country{
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.locationIcon{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.navAdress{
+  /* margin-top: 5px;; */
+  margin: 5px;
+  padding: 9px;
+}
+.navSearch{
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.navSearch:hover{
+  border: 2px solid orange;
+}
+
+.searchSelect{
+  background-color: #f3f3f3;
+  color: #0f1111;
+  width: 45px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.searchInput{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.searchIcon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+span{
+  font-size: 0.7rem;
+}
+.boldText{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.navCart i{
+  font-size: 25px;
+}
+.navCart{
+  font-size: 0.85rem;
+  font-weight: 700;
+}

@@ -3,11 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css Practice</title>
-    <link rel ="stylesheet" href = "style.css">
-
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="loader"></div>
+    <header>
+        <div class="navBar">
+            <div class="navLogo border">
+               <div class="logo"></div>
+            </div>
+            <div class="navAddress border">
+                <p class="deliver">Deliver to</p>
+                <div class="locationIcon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="country">India</p>
+                </div>
+            </div>
+            
+            <div class="navSearch">
+                <select class="searchSelect">
+                    <option>All</option>
+                    <option>All Departments</option>
+                    <option>Arts &amp; Crafts</option>
+                    <option>Automotive</option>
+                    <option>Baby</option>
+                    <option>Beauty &amp; Personal Care</option>
+                    <option>Books</option>
+                    <option>Boys' Fashion</option>
+                    <option>Computers</option>
+                    <option>Deals</option>
+                    <option>Digital Music</option>
+                    <option>Electronics</option>
+                    <option>Girls' Fashion</option>
+                    <option>Health &amp; Household</option>
+                    <option>Home &amp; Kitchen</option>
+                    <option>Industrial &amp; Scientific</option>
+                    <option>Kindle Store</option>
+                    <option>Luggage</option>
+                    <option>Men's Fashion</option>
+                    <option>Movies &amp; TV</option>
+                    <option>Music, CDs &amp; Vinyl</option>
+                    <option>Pet Supplies</option>
+                    <option>Prime Video</option>
+                    <option>Software</option>
+                    <option>Sports &amp; Outdoors</option>
+                    <option>Tools &amp; Home Improvement</option>
+                    <option>Toys &amp; Games</option>
+                    <option>Video Games</option>
+                    <option>Women's Fashion</option>
+                </select>
+                <input placeholder="Search Amazon" class="searchInput">
+                <div class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            
+            <div class="navSignin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="boldText">Account &amp; Lists</p>
+            </div>
+
+            <div class="navReturn border">
+                <p><span>Returns</span></p>
+                <p class="boldText">&amp; Orders</p>
+            </div>
+
+            <div class="navCart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+    </header>
 </body>
 </html>
