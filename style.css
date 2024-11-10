@@ -3,9 +3,12 @@
   font-family: Arial, Helvetica, sans-serif;
   border: border-box;
 }
+
+/* NavBar */
+
 .navBar{
   height: 60px;
-  background-color: #0f1111;
+  background-color: #131921;
   color: white;
   display: flex;
   align-items: center;
@@ -108,4 +111,23 @@ span{
 .navCart{
   font-size: 0.85rem;
   font-weight: 700;
+}
+
+/* Panel */
+.panel{
+  height: 40px;
+  display: flex;
+  background-color: #232F3E;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+.panelOption p{
+  display: inline;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+.panelOption{
+  width: 95%;
 }
