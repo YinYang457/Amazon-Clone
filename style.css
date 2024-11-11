@@ -131,3 +131,18 @@ span{
 .panelOption{
   width: 95%;
 }
+
+/* Hero Section */
+.heroSection{
+  height: 600px;
+  background-image: url("https://m.media-amazon.com/images/I/71Tfszeu0DL._SX3000_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.message{
+  background-color: white;
+  color: black;
+}
+.message a{
+  text-decoration: none;
+}
