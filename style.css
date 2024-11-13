@@ -157,3 +157,43 @@ span{
   text-decoration: none;
   color: #007185;
 }
+
+/* Shopping Items */
+.shoppingItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #d75fa6;
+}
+.box{
+  border: 2px solid black;
+  height: 420px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.link{
+  text-decoration: none;
+}
+.shoppingImg1{
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.h2{
+  height: 27.3px;
+}
+.box1Content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box1Content a{
+  color:#007185;
+  font-size: 0.85rem;
+}
+.Extra{
+  height: 290px;
+}
